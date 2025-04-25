@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 
 smtp_server = "mail.pratesis.com"
 port = 587
-sender_email = "sinno@pratesis.com"
-receiver_email = "pfebrian@gmail.com"
-password = "Bangka_2024!"
+sender_email = "youremail@pratesis.com"
+receiver_email = "destination@gmail.com"
+password = "yourpassword"
 
 # Buat email
 message = MIMEMultipart("alternative")
